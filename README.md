@@ -1,2 +1,2 @@
-# Marvel-Go
-API de Marvel en Go
+# API-Go
+API de Marvel y Pokemon en Go
