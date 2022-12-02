@@ -31,7 +31,7 @@ type PokemonSpecies struct {
 
 func PeticionAPI(i int) {
 
-	response, err := http.Get("http://pokeapi.co/api/v2/pokedex/kanto/")
+	response, err := http.Get("https://pokeapi.co/api/v2/pokedex/original-alola")
 	if err != nil {
 		fmt.Print(err.Error())
 		os.Exit(1)
